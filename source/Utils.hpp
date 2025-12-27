@@ -390,8 +390,8 @@ static int xfer_callback(void *clientp, curl_off_t dltotal, curl_off_t dlnow,
 }
 
 std::array sources = {
-	std::pair<const char*, const char*>("https://gitee.com/sskyswitch/FPSLocker-Warehouse/raw/v4/", ""),
-	std::pair<const char*, const char*>("https://raw.githubusercontent.com/masagrator/FPSLocker-Warehouse/v4/", "")
+	std::pair<const char*, const char*>("https://download.nswiki.cn/scy/FPSLocker-Warehouse/", ""),
+	std::pair<const char*, const char*>("https://download.nswiki.cn/scy/FPSLocker-Warehouse/", "")
 };
 
 void sendConfirmation(Result temp_error_code) {
